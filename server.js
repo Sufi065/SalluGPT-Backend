@@ -26,13 +26,6 @@ const connectDB = async() => {
     }
 }
 
-
-app.get("/api/test", (req, res) => {
-  console.log("API TEST HIT");
-  res.json({ msg: "test was successful!" });
-});
-
-
 // app.post("/test", async (req, res) => {
 //     const options = {
 //         method: "POST",
